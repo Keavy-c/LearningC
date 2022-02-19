@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "L1_test_compile",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "${workspaceRoot}/L1_test/*.c",
+                "-o",
+                "${workspaceRoot}/L1_test/L1_test",
+                "-g"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

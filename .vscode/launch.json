@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "L1_test_debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/L1_test/L1_test",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "L1_test_compile",
+            "MIMode": "lldb",
+            "targetArchitecture": "arm64"
+        }
+    ]
+}
